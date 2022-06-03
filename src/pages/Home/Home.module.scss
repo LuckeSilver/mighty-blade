@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-family: 'MedievalSharp', sans-serif;
+  }
+}
+
+.content {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  border: 1px solid #DDB936;
+}
+
+.formPadrao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
