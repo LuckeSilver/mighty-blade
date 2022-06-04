@@ -10,7 +10,7 @@ export default function AppRoutes() {
   return(
     <Router>
       <Routes>
-        <Route path="/home" element={<Home/>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/evolucao" element={<Evolucao/>} />
       </Routes>
     </Router>

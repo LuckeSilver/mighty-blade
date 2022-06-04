@@ -2,13 +2,15 @@
   border: none;
   color: white;
   cursor: pointer;
-  padding: 5px 50px;
-  border-radius: 10px;
-  background-color: #DDB936;
-  border: solid 1px;
-  border-color: #DDB936;
-  font-family: 'Abel', sans-serif;
   font-size: 1.2em;
+  padding: 5px 50px;
+  border: solid 1px;
+  border-radius: 10px;
+  transition: all 0.4s;
+  border-color: #DDB936;
+  background-color: #DDB936;
+  font-family: 'Abel', sans-serif;
+
 }
 
 .botao:hover{
